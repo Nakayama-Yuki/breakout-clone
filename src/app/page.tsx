@@ -1,5 +1,10 @@
 "use client";
 
+//　用語解説
+// パドル: ユーザーが操作する横棒。ボールを跳ね返す役割を持つ。
+// ブロック: 壊す対象の四角形。すべて壊すとゲームクリア。
+// ボール: パドルやブロックに当たって跳ね返る小さな円。
+
 import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
